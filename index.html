@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="shortcut icon" href="assets/favicon-99ca9e2f.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
+    <title>Document</title>
+  <link rel="stylesheet" href="assets/index-c6edaf46.css">
+</head>
+
+<body class="bg-gray-200">
+    <nav class="navbar flex justify-between bg-black text-white h-16 items-center">
+        <div class="left">
+            <ul class="list-none flex items-center">
+                <li class="cursor-pointer">
+                    <img src="assets/logo_small-b0125f6b.png" alt="logo" class="h-[60px] w-[60px]" />
+                </li>
+                <li class="cursor-pointer">The Sparks Foundation</li>
+            </ul>
+        </div>
+        <div class="mid">
+            <ul class="list-none flex space-x-10">
+                <li class="px-2 py-1 hover:bg-red-500 rounded-2xl my-3">
+                    <a href="#">Home</a>
+                </li>
+                <li class="px-2 py-1 hover:bg-red-500 rounded-2xl my-3">
+                    <a href="#campaigns">Campaigns</a>
+                </li>
+                <li class="px-2 py-1 hover:bg-red-500 rounded-2xl my-3">
+                    <a href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn border-2 border-red-600 px-4 py-3 rounded-3xl bg-red-400 mx-3 hover:bg-red-500" h>
+               <a href="https://pages.razorpay.com/pl_GFF2rkynv03jik/view">Donate Now</a>
+            </button>
+        </div>
+    </nav>
+
+    <!-- image slider -->
+    
+<div id="default-carousel" class="relative w-full" data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class="relative h-[32rem] overflow-hidden rounded-lg">
+         <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="assets/1-ac1d8b4d.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="assets/2-8686ce25.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="assets/3-ba3db3b4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 4 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="assets/4-1148cf43.webp" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="assets/5-5c493df0.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+    </div>
+    <!-- Slider indicators -->
+    <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div>
+
+<div class="motto w-[70vw] h-48 border-2 border-black rounded-full flex flex-col items-center justify-center mt-8 ml-44 py-28 bg-slate-300">
+    <h1 class="font-light italic text-4xl">"Everyone has something to give, so why don't you?</h1>
+    <h1 class="font-light italic text-4xl">Your change can make a difference."</h1>
+</div>
+<br><br><br>
+<hr class="bg-gray-400 h-[2px]">
+<br>
+<br>
+<h1 class="text-center text-5xl font-medium " id="campaigns">Our Social Campaigns</h1>
+<br>
+<br>
+<hr class="bg-gray-400 h-[2px]">
+<div class="cards">
+    <div class="card1 flex my-28">
+        <div class="left">
+            <img src="assets/card1-22851e74.webp" class="h-[55vh] w-[55vw]">
+        </div>
+        <div class="right mx-14 h-[60vh] w-[65vw] px-10 py-8 border-2 border-black rounded-3xl bg-orange-200 text-black">
+            <h1 class="font-semibold text-center text-3xl">Our Educational Campaign</h1>
+            <p class="mt-3">"At Sparks Foundation, we are dedicated to transforming lives through education. Our educational campaigns aim to bridge the gap in access to quality education, particularly in underserved communities. Through various initiatives, we strive to empower individuals with knowledge and skills that will enable them to build a brighter future. Our dedicated team of volunteers and educators work tirelessly to organize educational camps in remote areas, providing a nurturing and inclusive learning environment for children and adults alike. These camps not only focus on academic subjects but also emphasize the importance of life skills, critical thinking, and personal development. By fostering a love for learning, we empower individuals to break the cycle of poverty and create opportunities for themselves and their communities. We also collaborate with local schools and institutions, supporting their efforts to enhance the quality of education. Through our campaigns, we have witnessed the transformative power of education, as individuals gain confidence, broaden their horizons, and become agents of positive change. Together, we are building a future where every person, regardless of their background, has access to education and the opportunity to fulfill their potential."</p>
+        </div>
+    </div>
+
+    <div class="card2 flex my-28">
+        <div class="left mx-14 h-[62vh] w-[68vw] px-10 py-6 border-2 border-black rounded-3xl bg-orange-200 text-black">
+            <h1 class="font-semibold text-center text-3xl">Food Campaigns</h1>
+            <p class="mt-3">In today's world, where food insecurity remains a pressing issue, our NGO is dedicated to making a difference through our impactful food campaigns. With a steadfast commitment to combat hunger and nourish communities, we have embarked on a mission to empower individuals and foster sustainable solutions.Through our food campaigns, we aim to address the root causes of food insecurity by advocating for policies that promote access to nutritious food for all. We collaborate with local farmers, suppliers, and community organizations to establish a comprehensive network that ensures the availability of wholesome food options.One of our flagship initiatives is our community gardens program. By promoting urban farming and providing resources, we empower individuals to cultivate their own nutritious food. These gardens not only yield fresh produce but also serve as vibrant spaces for education and community building. Through workshops and training sessions, we empower community members with the knowledge and skills to grow their own food sustainably.In addition to community gardens, we organize food drives and distribution programs that bridge the gap between surplus food and those in need. Our team works tirelessly to collect donations from local businesses, farmers, and individuals, ensuring that no edible food goes to waste. Through strategic partnerships, we collaborate with soup kitchens, shelters, and schools to efficiently distribute these resources to vulnerable populations.</p>
+        </div>
+        <div class="right">
+            <img src="assets/card2-4ff4eeca.jpg" class="h-[55vh] w-[55vw]">
+        </div>
+    </div>
+
+    <div class="card3 flex my-28">
+        <div class="left">
+            <img src="assets/card3-494a7706.jpg" class="h-[55vh] w-[55vw]">
+        </div>
+        <div class="right mx-14 h-[55vh] w-[60vw] px-10 py-6 border-2 border-black rounded-3xl bg-orange-200 text-black">
+            <h1 class="font-semibold text-center text-3xl">Plantation Drive</h1>
+            <p class="mt-3">In a world grappling with environmental challenges, our NGO took a proactive step towards a greener future by organizing a remarkable plantation drive. With a shared vision of nurturing our planet and fostering a sense of responsibility, our dedicated team embarked on a journey to make a tangible difference in our local community.
+            The plantation drive, conducted in collaboration with local authorities and enthusiastic volunteers, aimed to not only replenish the depleting green cover but also raise awareness about the importance of preserving our natural resources. It served as a platform to educate individuals about the dire consequences of deforestation and the vital role trees play in maintaining ecological balance.Under the radiant sun, our team gathered at a designated site, armed with saplings, tools, and unwavering determination. Each participant, driven by a passion for conservation, dug into the fertile soil, carefully planting the young trees. It was a remarkable sight to witness people from different walks of life, united in their efforts to create a sustainable environment for future generations.</p>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-black text-white flex flex-col items-center justify-center font-extralight">
+    <h2 class="font-semibold">Disclaimer</h2>
+    <p class="text-center">This Website is the outcome of an intern project, and does not necessarily represent the views of any organisation or any other individuals referenced or acknowledged within the website. Anyone may reproduce, distribute, adapt, translate the content on the website,without explicit permission,provided that the content is accompanied by an acknowledgement that the spark foundation ngo is the source and that is clearly indicated if changes were made to the original content.</p>
+    <br>
+    <br>
+    <h3>&#169; 2023 <span class="font-semibold">Priyam Sharma</span></h3>
+</footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+</html>
